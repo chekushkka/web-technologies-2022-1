@@ -15,6 +15,6 @@ function createCounter(students, property)
     }
     return result;
 }
-const result = createCounter(students, 'name')
+const result = createCounter(students, 'name');
 
 console.log(result)
