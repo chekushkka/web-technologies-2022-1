@@ -8,7 +8,7 @@ const students = [
 ]
 function createCounter(students, property)
 {
-    const result =[]
+    const result =[];
     for (let i=0;i<students.length;i++){
         const prov = students[i];
         if (prov[property]!== undefined) result.push(prov[property]);
